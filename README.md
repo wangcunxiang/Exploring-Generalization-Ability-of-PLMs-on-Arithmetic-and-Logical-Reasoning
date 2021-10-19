@@ -32,7 +32,7 @@ Model: BART-Large
 
 Metric: Exact Match
 
-The code can be found in [here](https://github.com/wangcunxiang/Can-PLM-Serve-as-KB-for-CBQA).
+The code used is the same with [this project](https://github.com/wangcunxiang/Can-PLM-Serve-as-KB-for-CBQA).
 
 ## Citation
 
