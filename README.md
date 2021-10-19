@@ -14,6 +14,8 @@
 | Comparison     | 648000    | 81000   | 81000+5600                              | 810000+5600                             |
 | Symbolic Logic | 40000     | 5000    | 5000+2200                               | 50000+2200                              |
 
+Notes: For the listing task, since  the model cannot generalize well on the in-distribution test, we do not design cross-distribution test for the task.
+
 ## Details
 
 For each task, it contains in-distribution data and cross-distribution test. 
@@ -23,6 +25,14 @@ In the in-distribution data folder, there are folders with different numbers.
 Each number indicates that the folder contains this number percentage of  all train data while the dev/test set across  folders are exactly the same. For example, for the Addition task, the '50' means that the folder contains 256320*50% = 128160 training samples while the number of development/testing samples is 32040.
 
 The cross-distribution test folder contain the cross-distribution test data.
+
+## Setting
+
+Model: BART-Large
+
+Metric: Exact Match
+
+The code can be found in [here](https://github.com/wangcunxiang/Can-PLM-Serve-as-KB-for-CBQA).
 
 ## Citation
 
